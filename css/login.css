@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.login-top{
+    width:100%;
+    height: 50px;
+    background:rgba(0,0,0,0.85);
+    margin:0 auto;   
+    text-align: center;
+}
+.login-top img{
+      margin:0 auto;
+}
+.content{
+    width:90%;
+    margin:3% auto;
+}
+.h2{
+    display: inline;
+    font-weight: normal;
+    margin-left:2%;
+}
+.content img{
+    vertical-align: bottom;
+}
+.content-rr{
+    width:20%;
+    display: inline;
+    vertical-align: bottom;
+}
+.content-rr a{
+    float:right;
+    text-decoration: none;
+    color:#000;
+    width:7%;
+    text-align: center;
+    font-size:14px;
+    margin-top:3%;
+}
+.content-rr a:hover{
+    color:#f00;
+}
+.content-rr .c1{
+    border-right:1px solid #000;
+}
+.content-middle{
+       width:90%;
+       border:1px solid #ddd;
+       margin:2% auto;
+       padding:3% 0;
+
+}
+.content-left{
+         width:60%;
+         margin:1% 0;
+         float:left;
+
+}
+.content-left span{
+          color:#f00;
+          width:30%;
+         display: inline-block;
+         text-align: right;
+        
+}
+.content-left ul li{
+         list-style:none;
+         margin:4% 0;
+         font-size:14px;
+         
+}
+.content-left .contentLeft-wz{
+          color:#000;
+}
+.content-left ul input{
+    width:30%;
+    height:35px;
+    line-height:35px;
+}
+.content-left p{
+    text-align: center;
+    width:90%;
+    height:35px;
+    line-height:35px;
+    margin:2% 0;
+}
+.contentLeft-yd{
+    font-size:13px;
+}
+.contentLeft-yd a{
+    text-decoration:none;
+}
+.contentLeft-yd a:hover{color:#f00;}
+.content-left button{
+    width:35%;
+    height:35px;
+    line-height:35px;
+    color:#fff;
+    background: #cf000e;
+    border: 0;
+    outline: 0;
+}
+.content-right{
+    width:40%;
+    float:left;
+    text-align:center;
+    padding:0 9%;
+    margin:3% auto;
+    border-left:1px solid #ddd;
+}
+.content-right p{font-size:14px;}
+.content-right p button{
+           width:30%;
+           height:32px;
+           line-height:32px;
+           color:#fff;
+           background: #cf000e;
+           border: 0;
+           outline: 0;
+           border-radius:10%;
+}
+.content-ewm{
+    width:80%;
+    margin:10% auto;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:20% 0;
+}
+.content-ewm img{
+    width:60%;
+}
+.clear{
+    clear: both;
+}
