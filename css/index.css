@@ -56,7 +56,8 @@
     background: #f0f0f0;
     border:0;
     outline: 0;
-   
+   color:#000;
+   font-size:15px;
 }
 
 .wuliu-search{
@@ -64,9 +65,9 @@
     vertical-align: middle;
 }
 .search-center{
-    width:600px;
+    width:550px;
     display:inline-block;
-    margin:2px 30px;
+    margin:2px 100px;
  }
 .search-logo{vertical-align: middle;}
 .search-n li{
@@ -78,7 +79,13 @@
 .search-n li a{
     color:#999999;
     text-decoration: none;
-    font-size:13px;
+    font-size:15px;
+}
+.search-n li .active{
+    color:#FF6600;
+}
+.search-n li a:hover{
+    color:#e62318;
 }
 .contentr{
     width:1360px;
@@ -87,9 +94,7 @@
 }
 .asdio-left{
     width:230px;
-    
     text-align: left;
-   
     position: absolute;
     top:0px;
     left:-20px;
@@ -106,17 +111,24 @@
     padding:18px 20px;
     background:rgba(0,0,0,0.3);
 }
-.asdio-left li{
+.asdio-left ul li{
     list-style: none;
     font-size:13px;
     height:30px;
     line-height:30px;
-   
+    position: relative;
+    width:210px;
+    display:inline-block;
 }
-.asdio-left li i img{
+
+.asdio-left ul li:hover{
+    background-color:#c8c8c8;
+    color:#e62318;
+}
+.asdio-left ul li i img{
     vertical-align: middle;
 }
-.asdio-left li a{
+.asdio-left ul li a{
     text-decoration: none;
     color:#f0f0f0;
     margin:0 2px;
@@ -124,6 +136,27 @@
 }
 .asdio-left li span{
     color:#fff;
+}
+.asdio-left .diszt{
+    width:800px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-18px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+}
+.asdio-left .disleft{
+    width:100px;
+}
+.asdio-left .disleft ul{
+    list-style: none;
+    background-color:#fff;
+    font-weight: bold;
+}
+.asdio-left .disleft ul li{
+    height:60px;
 }
 .center-nav{
     width:930px;
@@ -141,8 +174,9 @@
     font-size:16px;
     color:#333;
     text-decoration: none;
+    letter-spacing: 2px;
 }
-.center-nav li a:hover{
+.center-nav li a:hover,.center-nav li .active{
     color:#f00;
 }
 .center-banner{
@@ -396,11 +430,12 @@ display:none;
     font-size:13px;
     color:#999;
 }
-.kt{
+/* 中部各种轮播 */
+.room{
     margin:50px 0 20px;
     position: relative;
 }
-.kt-lf{
+.room-lf{
     width:220px;
     position: absolute;
     top:45px;
@@ -409,7 +444,7 @@ display:none;
     text-align: center;
     padding:20px;
 }
-.kt-kt{
+.room-kt{
     font-size:40px;
 }
 .title-t{
@@ -426,7 +461,7 @@ display:none;
     font-size:14px;
     
 }
-.kt-lf a{
+.room-lf a{
     text-decoration: none;
     color:#333;
 }
@@ -439,14 +474,14 @@ display:none;
 .title-t a:hover{
     background:#e62318;
 }
-.kt-bottom{
+.room-bottom{
     width:720px;
     background:rgba(0,0,0,0.9);
     position: absolute;
     bottom:4px;
     right:30px;
 }
-.kt-bottom li{
+.room-bottom li{
     list-style: none;
     float: left;
     height:35px;
@@ -454,13 +489,163 @@ display:none;
     width:90px;
     text-align: center;
 }
-.kt-bottom li a{
+.room-bottom li a{
     text-decoration: none;
     color:#fff;
     font-size:14px; 
     display: block;
 }
-.kt-bottom li a:hover{
+.room-bottom li a:hover{
      color:#000;
     background:#fff;
+}
+/* 客厅各种轮播 */
+.bannern1 div,.bannern2 div,.bannern3 div,.bannern4 div,.bannern5 div,.bannern6 div,.bannern7 div,.bannern8 div{
+    display: inline-block;
+    text-align:center;
+}
+.bn-left1,.bn-left2{
+    margin:0 11.2px;
+}
+.bannern1 p,.bannern2 p,.bannern3 p,.bannern4 p,.bannern5 p,.bannern6 p,.bannern7 p,.bannern8 p{
+    font-size:13px;
+    color:#e62318;
+    margin-top:8px;
+}
+.bannern1 p a,.bannern2 p a,.bannern3 p a,.bannern4 p a,.bannern5 p a,.bannern6 p a,.bannern7 p a,.bannern8 p a{
+    color:#666;
+    text-decoration: none;
+    font-size:14px;
+}
+.bannern1 p a:hover,.bannern2 p a:hover,.bannern3 p a:hover,.bannern4 p a:hover,.bannern5 p a:hover,.bannern6 p a:hover,.bannern7 p a:hover,.bannern8 p a:hover{
+    color:#e62318;
+}
+.banner-1,.banner-2,.banner-3,.banner-4{
+    position: relative;
+}
+
+.banner-p1,.banner-p2,.banner-p3,.banner-p4{
+    background:#ddb788;
+    border:1px solid #ddb788;
+    padding:0 4px;
+    border-radius:3px;
+}
+.banner-p1,.banner-p4{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.banner-p2,.banner-p3{
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+.banner-p1 a,.banner-p2 a,.banner-p3 a,.banner-p4 a{
+    color:#fff;
+    font-size:14px;
+    text-decoration: none;
+}
+/* 2. */
+.bannern2{
+    display: none;
+}
+/* 3. */
+.bannern3{
+    display: none;
+}
+
+/* 4. */
+.bannern4{
+    display: none;
+}
+/* 5. */
+.bannern5{
+    display: none;
+}
+/* 6. */
+.bannern6{
+    display: none;
+}
+/* 7. */
+.bannern7{
+    display: none;
+}
+/* 8. */
+.bannern8{
+    display: none;
+}
+/* 卧室各种轮播 */
+.bed-room1 div,.bed-room2 div,.bed-room3 div,.bed-room4 div,.bed-room5 div,.bed-room6 div,.bed-room7 div,.bed-room8 div{
+    display: inline-block;
+    text-align:center;
+}
+.br-left1,.br-left2{
+    margin:0 11.2px;
+}
+.bed-room1 p,.bed-room2 p,.bed-room3 p,.bed-room4 p,.bed-room5 p,.bed-room6 p,.bed-room7 p,.bed-room8 p{
+    font-size:13px;
+    color:#e62318;
+    margin-top:8px;
+}
+.bed-room1 p a,.bed-room2 p a,.bed-room3 p a,.bed-room4 p a,.bed-room5 p a,.bed-room6 p a,.bed-room7 p a,.bed-room8 p a{
+    color:#666;
+    text-decoration: none;
+    font-size:14px;
+}
+.bed-room1 p a:hover,.bed-room2 p a:hover,.bed-room3 p a:hover,.bed-room4 p a:hover,.bed-room5 p a:hover,.bed-room6 p a:hover,.bed-room7 p a:hover,.bed-room8 p a:hover{
+    color:#e62318;
+}
+.broom-1,.broom-2,.broom-3,.broom-4{
+    position: relative;
+}
+
+.broom-p1,.broom-p2,.broom-p3,.broom-p4{
+    background:#ddb788;
+    border:1px solid #ddb788;
+    padding:0 4px;
+    border-radius:3px;
+}
+.broom-p1,.broom-p4{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.broom-p2,.broom-p3{
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+.broom-p1 a,.broom-p2 a,.broom-p3 a,.broom-p4 a{
+    color:#fff;
+    font-size:14px;
+    text-decoration: none;
+}
+/* 2. */
+.bed-room2{
+    display: none;
+}
+/* 3. */
+.bed-room3{
+    display: none;
+}
+
+/* 4. */
+.bed-room4{
+    display: none;
+}
+/* 5. */
+.bed-room5{
+    display: none;
+}
+/* 6. */
+.bed-room6{
+    display: none;
+}
+/* 7. */
+.bed-room7{
+    display: none;
+}
+/* 8. */
+.bed-room8{
+    display: none;
 }
