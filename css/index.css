@@ -123,7 +123,7 @@
 
 .asdio-left ul li:hover{
     background-color:#c8c8c8;
-    color:#e62318;
+  
 }
 .asdio-left ul li i img{
     vertical-align: middle;
@@ -146,17 +146,44 @@
     left:210px;
     padding-left: 10px;
     z-index:100px;
+    
 }
 .asdio-left .disleft{
     width:100px;
+    padding:0 19px;
+    display:inline-block;
+    float:left;
+    
 }
-.asdio-left .disleft ul{
-    list-style: none;
-    background-color:#fff;
-    font-weight: bold;
-}
-.asdio-left .disleft ul li{
+.asdio-left .disleft p{
     height:60px;
+    line-height:60px;
+font-weight: bold;
+color:#000;
+}
+.asdio-left .disleft p a{
+    font-weight: bold;
+    color:#000;
+    }
+.asdio-left .discenter{
+    display:inline-block;
+    float:left;
+    width:450px;
+    padding:0 10px 0 30px;
+}
+.asdio-left .discenter p{
+    height:60px;
+    margin-top:11px;
+    border-bottom:1px dotted #999;
+    marign:0;
+}
+.asdio-left .discenter p a{
+    color:#000;
+    letter-spacing: 1px;
+    display:inline-block;
+    padding:0 3px;
+    color:#999;
+    font-size:12px;
 }
 .center-nav{
     width:930px;
