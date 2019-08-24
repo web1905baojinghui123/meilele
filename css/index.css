@@ -116,14 +116,13 @@
     font-size:13px;
     height:30px;
     line-height:30px;
-    position: relative;
     width:210px;
+    position: relative;
     display:inline-block;
 }
 
 .asdio-left ul li:hover{
     background-color:#c8c8c8;
-  
 }
 .asdio-left ul li i img{
     vertical-align: middle;
@@ -137,6 +136,7 @@
 .asdio-left li span{
     color:#fff;
 }
+/*左侧鼠标滑动第一块*/
 .asdio-left .diszt{
     width:800px;
     height:457px;
@@ -146,14 +146,13 @@
     left:210px;
     padding-left: 10px;
     z-index:100px;
-    
+    display: none;
 }
 .asdio-left .disleft{
     width:100px;
-    padding:0 19px;
+    padding:0 18px;
     display:inline-block;
     float:left;
-    
 }
 .asdio-left .disleft p{
     height:60px;
@@ -171,20 +170,127 @@ color:#000;
     width:450px;
     padding:0 10px 0 30px;
 }
+.discenter-p{
+    margin-top:11px;
+    display:inline-block;
+}
+.discenter-p .p-middle{
+    line-height:60px;
+}
 .asdio-left .discenter p{
     height:60px;
-    margin-top:11px;
     border-bottom:1px dotted #999;
     marign:0;
 }
 .asdio-left .discenter p a{
-    color:#000;
     letter-spacing: 1px;
     display:inline-block;
     padding:0 3px;
     color:#999;
     font-size:12px;
 }
+.asdio-left .discenter p a:hover{
+    color:#e62318;
+}
+.asdio-left .disright{
+    padding:12px 0 10px 10px;
+    width:200px;
+    display: inline-block;
+}
+.asdio-left .disright .image1{
+    padding:35px 10px 10px 18px;
+}
+.asdio-left .disright a{
+    color:#999;
+    display:inline-block;
+    margin:0 10px;
+    font-size:12px;
+}
+.asdio-left .disright a:hover,.asdio-left .disright .active{
+    color:#e62318;
+}
+.asdio-left ul li:hover .diszt{
+    display: block;
+}
+/*左侧鼠标滑动第二块*/
+.asdio-left .diszt1{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-48px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left .disleft1{
+    width:80px;
+    padding:11px 0 11px 15px;;
+    display:inline-block;
+    float:left;
+}
+.asdio-left .disleft1 p{
+    height:120px;
+font-weight: bold;
+color:#000;
+}
+.asdio-left .disleft1 p a{
+    font-weight: bold;
+    color:#000;
+    }
+.asdio-left .discenter1{
+    display:inline-block;
+    float:left;
+    width:340px;
+    padding:0 10px 0 30px;
+}
+.discenter1-p{
+    margin-top:11px;
+    display:inline-block;
+}
+.asdio-left .discenter1 p{                                             
+    border-bottom:1px dotted #999;
+    padding:5px;
+    height:130px;
+}
+.asdio-left .discenter1 p a{
+    letter-spacing: 1px;
+    display:inline-block;
+    padding:0 3px;
+    color:#999;
+    font-size:12px;
+}
+.asdio-left .discenter1 p a:hover,.asdio-left .discenter1 p .active{
+    color:#e62318;
+}
+.asdio-left .disright1{
+    padding:12px 0 5px;
+    width:150px;
+    display: inline-block;
+}
+.asdio-left .disright1 .tjpp{width:200px;}
+.asdio-left .disright1 .tjpp a{
+    display:inline;
+    margin:0;
+    padding:0 10px;;
+}
+.asdio-left .disright1 .image1{
+    padding:10px;
+}
+.asdio-left .disright1 a{
+    color:#999;
+    display:inline-block;
+    margin:0 10px;
+    font-size:12px;
+}
+.asdio-left .disright1 a:hover,.asdio-left .disright1 .active{
+    color:#e62318;
+}
+.asdio-left ul li:hover .diszt1{
+    display: block;
+}
+/*中部导航*/
 .center-nav{
     width:930px;
     height:30px;
