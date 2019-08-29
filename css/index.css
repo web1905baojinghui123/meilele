@@ -243,7 +243,7 @@ color:#000;
     display:inline-block;
     float:left;
     width:340px;
-    padding:0 10px 0 30px;
+    padding:0 10px 0 10px;
 }
 .discenter1-p{
     margin-top:11px;
@@ -252,7 +252,6 @@ color:#000;
 .asdio-left .discenter1 p{                                             
     border-bottom:1px dotted #999;
     padding:5px;
-    height:130px;
 }
 .asdio-left .discenter1 p a{
     letter-spacing: 1px;
@@ -290,6 +289,158 @@ color:#000;
 .asdio-left ul li:hover .diszt1{
     display: block;
 }
+/*左侧鼠标滑动第三块*/
+.asdio-left .diszt2{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-78px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt2{
+    display: block;
+}
+/*左侧鼠标滑动第四块*/
+.asdio-left .diszt3{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-108px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt3{
+    display: block;
+}
+/*左侧鼠标滑动第五块*/
+.asdio-left .diszt4{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-138px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt4{
+    display: block;
+}
+/*左侧鼠标滑动第六块*/
+.asdio-left .diszt5{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-168px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt5{
+    display: block;
+}
+/*左侧鼠标滑动第七块*/
+.asdio-left .diszt6{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-198px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt6{
+    display: block;
+}
+/*左侧鼠标滑动家具建材*/
+.asdio-left .diszt{
+    width:800px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-18px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left .disleft{
+    width:100px;
+    padding:0 18px;
+    display:inline-block;
+    float:left;
+}
+.asdio-left .disleft p{
+    height:60px;
+    line-height:60px;
+font-weight: bold;
+color:#000;
+}
+.asdio-left .disleft p a{
+    font-weight: bold;
+    color:#000;
+    }
+.asdio-left .discenter{
+    display:inline-block;
+    float:left;
+    width:450px;
+    padding:0 10px 0 30px;
+}
+.discenter-p{
+    margin-top:11px;
+    display:inline-block;
+}
+.discenter-p .p-middle{
+    line-height:60px;
+}
+.asdio-left .discenter p{
+    height:60px;
+    border-bottom:1px dotted #999;
+    marign:0;
+}
+.asdio-left .discenter p a{
+    letter-spacing: 1px;
+    display:inline-block;
+    padding:0 3px;
+    color:#999;
+    font-size:12px;
+}
+.asdio-left .discenter p a:hover{
+    color:#e62318;
+}
+.asdio-left .disright{
+    padding:12px 0 10px 10px;
+    width:200px;
+    display: inline-block;
+}
+.asdio-left .disright .image1{
+    padding:35px 10px 10px 18px;
+}
+.asdio-left .disright a{
+    color:#999;
+    display:inline-block;
+    margin:0 10px;
+    font-size:12px;
+}
+.asdio-left .disright a:hover,.asdio-left .disright .active{
+    color:#e62318;
+}
+.asdio-left ul li:hover .diszt{
+    display: block;
+}
+
 /*中部导航*/
 .center-nav{
     width:930px;
