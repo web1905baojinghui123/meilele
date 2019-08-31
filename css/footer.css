@@ -1,0 +1,106 @@
+.mll-footer{
+    width:100%;
+    padding-top:70px;
+}
+.mll-footer .footer-icon{
+    background: #f8f8f8;
+    padding: 35px 0;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+.view_{
+    width:1190px;
+    margin:0 auto;
+}
+.mll-footer .footer-icon a{
+    display: inline-block;
+    width:122px;
+    height:80px;
+    text-decoration: none;
+}
+.view_ i{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    background:url("../image/footericon.png") no-repeat;
+    margin:0 auto;
+}
+.view_ .icon2{
+        background-position: -50px 0;
+}
+.view_ .icon3{
+    background-position: -100px 0;
+}
+.view_ .icon4{
+    background-position: -150px 0;
+}
+.view_ .icon5{
+    background-position: 0 -50px;
+}
+.view_ .icon6{
+    background-position: -50px -50px;
+}
+.view_ .icon7{
+    background-position: -100px -50px;
+}
+.view_ .icon8{
+    background-position: -150px -50px;
+}
+.view_ span{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;}
+.mll-footer .footer-help{
+    background: #f8f8f8;
+    padding: 35px 0 54px;
+}
+.mll-footer .footer-help ul li{
+    list-style: none;
+}
+.mll-footer .footer-help .summary{
+    width:240px;
+    height:165px;
+    float:left;
+}
+.mll-footer .footer-help .summary .s1{
+    font-size:14px;
+    line-height:19px;
+}
+.mll-footer .footer-help .summary .s2{
+    font-size: 20px;
+    color: #e62318;
+    margin: 5px 0;
+}
+.mll-footer .footer-help .summary .s3{
+    color: #999;
+    margin-bottom: 30px;
+    font-size:14px;
+}
+.mll-footer .footer-help .summary .red{
+    color:#e62318!important;
+}
+.mll-footer .footer-help .summary a,.mll-footer .footer-help .summary a{
+    display: inline-block;
+    color: #e62318;
+    border: 1px solid #e62318;
+    text-decoration: none;
+    width: 116px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    padding-left: 10px;
+    position: relative;
+    font-size:14px;
+    margin-top:10px;
+}
+.mll-footer .footer-help .article .clearfix{
+    width: 910px;
+    float: right;
+}
+.mll-footer .footer-help .article dl{
+    float:left;
+    width:141px;
+}

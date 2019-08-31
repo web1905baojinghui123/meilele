@@ -744,7 +744,7 @@ display:none;
 /* 中部各种轮播 */
 /*鼠标经过图片放大*/
 .image-hover img:hover{
-    transform: scale(1.1);
+    transform: scale(1);
     transition: transform 1.5s;}
 .room{
     margin:50px 0 20px;
