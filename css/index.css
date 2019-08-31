@@ -198,12 +198,12 @@ color:#000;
     display: inline-block;
 }
 .asdio-left .disright .image1{
-    padding:35px 10px 10px 18px;
+    padding:25px 10px 10px 18px;
 }
 .asdio-left .disright a{
     color:#999;
     display:inline-block;
-    margin:0 10px;
+    margin:0 9px;
     font-size:12px;
 }
 .asdio-left .disright a:hover,.asdio-left .disright .active{
@@ -365,82 +365,110 @@ color:#000;
     display: block;
 }
 /*左侧鼠标滑动家具建材*/
-.asdio-left .diszt{
+.asdio-left .diszt-jj{
     width:800px;
     height:457px;
     background:#fff;
     position: absolute;
-    top:-18px;
+    top:-228px;
     left:210px;
     padding-left: 10px;
     z-index:100px;
     display: none;
 }
-.asdio-left .disleft{
-    width:100px;
-    padding:0 18px;
-    display:inline-block;
-    float:left;
-}
-.asdio-left .disleft p{
-    height:60px;
-    line-height:60px;
-font-weight: bold;
-color:#000;
-}
-.asdio-left .disleft p a{
-    font-weight: bold;
-    color:#000;
-    }
-.asdio-left .discenter{
-    display:inline-block;
-    float:left;
-    width:450px;
-    padding:0 10px 0 30px;
-}
-.discenter-p{
-    margin-top:11px;
-    display:inline-block;
-}
-.discenter-p .p-middle{
-    line-height:60px;
-}
-.asdio-left .discenter p{
-    height:60px;
-    border-bottom:1px dotted #999;
-    marign:0;
-}
-.asdio-left .discenter p a{
-    letter-spacing: 1px;
-    display:inline-block;
-    padding:0 3px;
-    color:#999;
-    font-size:12px;
-}
-.asdio-left .discenter p a:hover{
-    color:#e62318;
-}
-.asdio-left .disright{
-    padding:12px 0 10px 10px;
-    width:200px;
-    display: inline-block;
-}
-.asdio-left .disright .image1{
-    padding:35px 10px 10px 18px;
-}
-.asdio-left .disright a{
-    color:#999;
-    display:inline-block;
-    margin:0 10px;
-    font-size:12px;
-}
-.asdio-left .disright a:hover,.asdio-left .disright .active{
-    color:#e62318;
-}
-.asdio-left ul li:hover .diszt{
+.asdio-left ul li:hover .diszt-jj{
     display: block;
 }
-
+/*左侧鼠标滑动家具建材1*/
+.asdio-left .diszt-j1{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-258px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-j1{
+    display: block;
+}
+/*左侧鼠标滑动家具建材2*/
+.asdio-left .diszt-j2{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-288px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-j2{
+    display: block;
+}
+/*左侧鼠标滑动优选风格*/
+.asdio-left .diszt-style{
+    width:800px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-318px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-style{
+    display: block;
+}
+/*左侧鼠标滑动优选风格1*/
+.asdio-left .diszt-style1{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-348px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-style1{
+    display: block;
+}
+/*左侧鼠标滑动优选风格2*/
+.asdio-left .diszt-style2{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-378px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-style2{
+    display: block;
+}
+/*左侧鼠标滑动优选风格1*/
+.asdio-left .diszt-style3{
+    width:650px;
+    height:457px;
+    background:#fff;
+    position: absolute;
+    top:-408px;
+    left:210px;
+    padding-left: 10px;
+    z-index:100px;
+    display: none;
+}
+.asdio-left ul li:hover .diszt-style3{
+    display: block;
+}
 /*中部导航*/
 .center-nav{
     width:930px;
@@ -473,7 +501,6 @@ color:#000;
 }
 .center-banner1,.center-banner2,.center-banner3{
 display:none;
-
 }
 .first-h{
     width:1360px;
@@ -715,6 +742,10 @@ display:none;
     color:#999;
 }
 /* 中部各种轮播 */
+/*鼠标经过图片放大*/
+.image-hover img:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;}
 .room{
     margin:50px 0 20px;
     position: relative;
