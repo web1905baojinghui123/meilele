@@ -1,3 +1,4 @@
+ol,ul{list-style: none;}
 .mll-footer{
     width:100%;
     padding-top:70px;
@@ -11,6 +12,7 @@
 .view_{
     width:1190px;
     margin:0 auto;
+    clear: both;
 }
 .mll-footer .footer-icon a{
     display: inline-block;
@@ -82,6 +84,10 @@
 .mll-footer .footer-help .summary .red{
     color:#e62318!important;
 }
+.mll-footer .footer-help .footer_view{
+    width:1200px;
+    margin:0 auto;
+}
 .mll-footer .footer-help .summary a,.mll-footer .footer-help .summary a{
     display: inline-block;
     color: #e62318;
@@ -102,5 +108,62 @@
 }
 .mll-footer .footer-help .article dl{
     float:left;
-    width:141px;
+    width:127px;
+}
+.mll-footer .footer-help .article dt{
+    color: #444;
+    font-size: 14px;
+    padding: 3px 0 5px;
+    text-align: center;
+}
+.mll-footer .footer-help .article dd a{
+    display: block;
+    color: #999;
+    margin-top: 9px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.mll-footer .footer-help .article img,.mll-footer .footer-help .article img{
+    width:80%;
+}
+.mll-footer .footer-help .both{
+    clear: both;
+}
+/*最底部*/
+.mll-footer .footer-extend{
+    background: #1f1f1f;
+    padding: 21px 0 30px;
+    color:#999;
+    font-size: 12px;
+}
+.mll-footer .footer-extend a{
+    text-decoration: none;
+    color: #999;
+}
+.mll-footer .footer-extend a:hover{
+    color:#e62318;
+}
+.mll-footer .footer-extend .footer-link{
+    border-bottom: solid 1px #2e2e2e;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width:1200px;
+    margin:0 auto;
+}
+.mll-footer .footer-extend .footer-link a{
+    display: inline-block;
+    margin: 2px 6px;
+}
+.mll-footer .footer-extend .footer-copyrights{
+    position: relative;
+    color: #777;
+    width:1200px;
+    margin:0 auto;
+}
+.mll-footer .footer-extend .footer-copyrights .copyrights{
+    height: 40px;
+}
+.mll-footer .footer-extend .footer-copyrights .copyrights li{
+    height: 20px;
+    line-height: 20px;
 }
