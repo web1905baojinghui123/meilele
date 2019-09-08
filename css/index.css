@@ -9,6 +9,8 @@
       list-style: none;
       width:260px;
       float: left;
+      height:30px;
+      line-height: initial;
       
 }
 .dh-left li{

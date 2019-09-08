@@ -167,3 +167,8 @@ ol,ul{list-style: none;}
     height: 20px;
     line-height: 20px;
 }
+.mll-footer .footer-extend .footer-copyrights .credit{
+    position: absolute;
+    top:0px;
+    right:0px;
+}
