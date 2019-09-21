@@ -13,12 +13,20 @@
       line-height: initial;
       
 }
+.nav .dh-left .map-1 i{
+       width:11px;
+       height:14px;
+       display: inline-block;
+       background: url(../image/nav.png) 0 -37px no-repeat;
+       overflow: hidden;
+}
 .dh-left li{
     float:left;
     text-align: center;
     margin:5px 5px;
     font-size:13px;
 }
+
 .dh-left li a{
     text-decoration: none;
     color:#717171;
@@ -34,12 +42,72 @@
     width:500px;
     float: right;
 }
+.nav .dh-right .dh-right1{
+    position: relative;
+}
+.nav .dh-right .arrow{
+    width:7px;
+    height:4px;
+    display: inline-block;
+    background:url(../image/nav.png)0 0 no-repeat;
+    overflow: hidden;
+    margin-top: 13px;
+}
+.nav .dh-right .dh-right1:hover .arrow{
+    -webkit-transform:rotate(-180deg);
+}
+.nav .dh-right .mymll-out{
+    width: 88px;
+    position: absolute;
+    left: -1px;
+    padding: 0px  23px 2px 3px;
+    background: #fff;
+    z-index: 100;
+    border: 1px solid #f8f8f8;
+    border-top: none;
+    display: none;
+}
+/*我的美乐乐鼠标经过*/
+.nav .dh-right .dh-right1:hover .mymll-out,.nav .dh-right .dh-right2:hover .shopping{
+    display:block; 
+}
+.nav .dh-right .dh-right1 a:hover,.nav .dh-right .mymll-out a:hover{
+    color: #e62318;
+}
+.nav .dh-right .dh-right1:hover,.nav .dh-right .dh-right2:hover{
+       background: #fff;
+}
+.nav .dh-right .icon-1{
+    width: 17px;
+    height: 14px;
+    display: inline-block;
+    background: url(../image/nav.png) 0 -53px no-repeat;
+    margin-top: 7px;
+}
+/*购物车*/
+.nav .dh-right .dh-right2{
+    position: relative;
+}
+.nav .dh-right .dh-right2 .shopping{
+    width:220px;
+    background: #fff;
+    border:1px solid #f8f8f8;
+    position: absolute;
+    top:26px;
+    display: none;
+}
+.nav .dh-right .dh-right2 .empty{
+    padding:15px 10px;
+    line-height: 48px;
+}
 .dh-right li{
     float:left;
     list-style: none;
     font-size:13px;
     text-align: center;
     margin:0 5px;
+    padding: 0 5px;
+    border: 1px solid #f8f8f8;
 }
 .dh-right li a{
     text-decoration: none;
